@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://0xidayzz.github.io/portfolioV1",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "license": "ISC",
   "author": "",
@@ -12,9 +11,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.101.1",
